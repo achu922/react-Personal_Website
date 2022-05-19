@@ -1,0 +1,58 @@
+.A1 {
+  display: flex;
+  height: 100%;
+  min-height: 500px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFE;
+  overflow: hidden;
+
+}
+.header
+{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+.userProf
+{
+  display: block;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.container
+{
+  display:grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 320px);
+}
+.rank
+{
+  display: grid;
+}
+.steps
+{
+  color: white
+}
+.here-link 
+{
+  color: purple;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.here-link:hover, .here-link:focus, .here-link:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

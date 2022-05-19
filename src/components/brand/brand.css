@@ -1,0 +1,63 @@
+
+
+.gpt3__brand {
+    --x: 50%;
+	--y: 50%;
+   
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    align-items: center;
+    padding: 1em 2em;
+	color: white;
+	border-radius: 100px;
+	border: 3px solid transparent;
+    background: radial-gradient(rgb(68, 68, 68), rgb(0, 0, 0)) padding-box, radial-gradient(farthest-corner at var(--x) var(--y), #00C9A7, #ffd905) border-box;
+    
+}
+
+.gpt3__brand div {
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.media {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    padding-top: -10px;
+    
+    padding-bottom: 10px;
+  }
+  .media:before {
+    content: "";
+    position: absolute;
+    z-index: -4;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #ffffff;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .media:hover:before, .media:focus:before, .media:active:before {
+    left: 0;
+    right: 0;
+  }
+  
+
