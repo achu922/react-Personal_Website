@@ -15,21 +15,21 @@ const Projects = () => (
         <img className='thumbnail' src={UE_door_script} />
         <div className='post-preview'>
           <h6 className='post-title'>Unreal Engine Door Script</h6>
-          <p className='post-intro'>Created a door that would automatically open using a calculated weight system. Example: The weight of the cube and cone combined is able to open the door.</p>
+          <p className='post-intro'>Created a door that would automatically open using a calculated weight system. Example: The weight of the cube and cone combined is able to open the door and will remain opened until the weighted blocks are removed from the pressure plate.</p>
         </div>
       </div>
       <div className='post'>
         <ReactPlayer width='100%' height='180px' url='https://www.youtube.com/watch?v=SQKeaCGOmAw' />
         <div className='post-preview'>
           <h6 className='post-title'>VRCHAT World</h6>
-          <p className='post-intro'>Created and Designed a VRChat world using Unity, Blender and VRChat SDK. Created custom stuctures and really enjoyed messing around with building and VRChat's SDK.</p>
+          <p className='post-intro'>Created and Designed a VRChat world using Unity, Blender and VRChat SDK. Developed custom stuctures using blender and also utilized Unity's community workshop. I really enjoyed messing around with building and VRChat's SDK.</p>
         </div>
       </div>
       <div className='post'>
         <img className='thumbnail' src={html_website} />
         <div className='post-preview'>
           <h6 className='post-title' ><a href='https://www.public.asu.edu/~amchu1/' target='_blank'>HTML Website (click me)</a></h6>
-          <p className='post-intro'>First personal project. Created a personal website using HTML and CSS. Utilized Javascript to save changes to theme colors the user picks. Also has a form that allows users to send emails to me.</p>
+          <p className='post-intro'>First personal project. Created a personal website using HTML and CSS. Utilized Javascript to save changes to theme colors the user picks even if the user closes and returns to the page later. Also has a form that allows users to send emails to me.</p>
         </div>
       </div>
       <div className='post'>
@@ -43,7 +43,7 @@ const Projects = () => (
         <img className='thumbnail' src={fastapipic} />
         <div className='post-preview'>
           <h6 className='post-title' ><a href='https://fastapi-austin.herokuapp.com/docs' target='_blank'>Social Media API (click me)</a></h6>
-          <p className='post-intro'>Learned how to utilize the FastAPI framework and PostgreSQL to develop a Social Media API which has a functional Login authentication, User and Post functions and a vote system. </p>
+          <p className='post-intro'>Learned how to utilize the FastAPI framework and PostgreSQL to develop a Social Media API which has a functional User login authentication and sign in, creation/update/deletion of posts. One of my most useful projects that I learned from!</p>
         </div>
       </div>
     </div>

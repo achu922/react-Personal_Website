@@ -53,8 +53,8 @@ function PersonalInfo()
     <div className='container'>
       <div className='steps'>
         Steps to Search for Summoner: <br/><br/>
-        1. Paste your RIOT API Key in the top input box. You can find your API Key 
-        <a className='here-link' href='https://developer.riotgames.com/' target='_blank' > here</a><br/><br/>
+        1. Paste your RIOT API Key in the top input box. You can find your API Key using the link below. <br/>
+        <a className='here-link' href='https://developer.riotgames.com/' target='_blank' >RIOT Developer Portal</a><br/><br/>
         2. Enter a Summoner name in the second input box and click search.<br/><br/>
         3. Press the "Find Rank" to see the Rank of Summoner inputted
 
