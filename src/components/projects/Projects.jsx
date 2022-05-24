@@ -36,7 +36,7 @@ const Projects = () => (
         <ReactPlayer width='100%' height='180px' url='https://youtu.be/qVv6pGCJNbg' />
         <div className='post-preview'>
           <h6 className='post-title'>Pediatric Healthcare Management App</h6>
-          <p className='post-intro'>Collaborated in a team of 5 members and utilized JavaFX and SQLite. Encouraged to use Agile Method for development and hosted Sprint meetings bi-weekly to ensure we met project deadlines.</p>
+          <p className='post-intro'>Collaborated in a team of 5 members and utilized JavaFX and SQLite. Encouraged to use Agile Method for development and hosted Sprint meetings bi-weekly to ensure we met project deadlines using JIRA.</p>
         </div>
       </div>
       <div className='post'>
