@@ -46,6 +46,13 @@ const Projects = () => (
           <p className='post-intro'>Learned how to utilize the FastAPI framework and PostgreSQL to develop a Social Media API which has a functional User login authentication and sign in, creation/update/deletion of posts. One of my most useful projects that I learned from!</p>
         </div>
       </div>
+      <div className='post'>
+        <ReactPlayer width='100%' height='180px' url='https://youtu.be/2JQlPknzLas' />
+        <div className='post-preview'>
+          <h6 className='post-title'>Currency Converter App</h6>
+          <p className='post-intro'>Created using C# WPF and Microsoft SQL Server. App consists of two tabs, one to convert currencies and another to input currencies. Allows users to input desired Currencies and Exchange Rates as well as edit/update and delete them. </p>
+        </div>
+      </div>
     </div>
   </section>
 );
